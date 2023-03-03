@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="ingles_familia.MainPage" Title="Inglês para Família">
+
+    <StackLayout>
+        <Image Source="logoapp"/>
+        <Button Text="Cores"
+                HorizontalOptions="FillAndExpand"
+                VerticalOptions="FillAndExpand"
+                x:Name="btCores"
+                Background="Blue"
+                TextColor="White"
+                FontAttributes="Bold"
+                Clicked="btCores_Clicked"/>
+        <Button Text="Números"
+                HorizontalOptions="FillAndExpand"
+                VerticalOptions="FillAndExpand"
+                x:Name="btNumeros"
+                Background="Brown"
+                TextColor="White"
+                FontAttributes="Bold"
+                Clicked="btNumeros_Clicked"/>
+        <Button Text="Família"
+                HorizontalOptions="FillAndExpand"
+                VerticalOptions="FillAndExpand"
+                x:Name="btFamilia"
+                Background="Green"
+                TextColor="White"
+                FontAttributes="Bold"
+                Clicked="btFamilia_Clicked"/>
+        <Button Text="Sair"
+                HorizontalOptions="FillAndExpand"
+                VerticalOptions="FillAndExpand"
+                x:Name="btSair"
+                Background="Red"
+                TextColor="White"
+                FontAttributes="Bold"
+                Clicked="btSair_Clicked"/>
+    </StackLayout>
+
+</ContentPage>
